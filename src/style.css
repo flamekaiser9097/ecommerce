@@ -1,0 +1,39 @@
+.container{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 28%;
+    height: 500px;
+    background-color: rgb(243, 254, 31);
+
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.Product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description{
+    text-align: left;
+}
+.button {
+    background-color: #04AA6D; /* Green */
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 10px 5px 10px;
+    border-radius: 10px;
+  }
+  .cart{
+    text-align: right;
+  }
